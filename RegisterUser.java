@@ -44,6 +44,17 @@ public class RegisterUser {
 		else {
 			System.out.println("Enter account is not visible..");
 		}
+		//Fill details: Title, Name, Email, Password, Date of birth
+		driver.findElement(By.id("id_gender1")).click(); //title
+		driver.findElement(By.xpath("//input[@id='name']")).sendKeys(".....");// name
+		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(".....");// password
+		// Need to add for drop downs
+		driver.findElement(By.xpath("//input[@id='newsletter']")).click(); //Select checkbox 'Sign up for our newsletter!'
+		driver.findElement(By.xpath("//input[@id='optin']")).click();//Select checkbox 'Receive special offers from our partners!'
+		//Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number
+		
+		
+		
 		
 		Thread.sleep(4000);
 		driver.quit();
