@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class DataProvider {
 	WebDriver driver=new ChromeDriver();
 	
-	  @Test(priority=1,groups= {"sanity"},dataProvider="data")
+	  @Test(priority=1,invocationCount=2,dataProvider="data")
 	  public void login(String username,String password) {
 		  driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
 		  driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
