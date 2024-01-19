@@ -1,0 +1,15 @@
+22:32:08.297 [main] INFO  testCases.Test01_AccountRegistrationTest - ****Lastname Filled****
+22:32:08.440 [main] INFO  testCases.Test01_AccountRegistrationTest - ****Email Filled****
+22:32:11.616 [main] INFO  testCases.Test01_AccountRegistrationTest - ****Password Filled****
+22:32:11.718 [main] INFO  testCases.Test01_AccountRegistrationTest - ****Clicked on News_Letter****
+22:32:11.829 [main] INFO  testCases.Test01_AccountRegistrationTest - ****Clicked on Checkbox****
+22:32:11.948 [main] INFO  testCases.Test01_AccountRegistrationTest - ****Clicked on Continue****
+22:32:11.994 [main] DEBUG testCases.Test01_AccountRegistrationTest - **Debug logs Ended**
+22:32:11.994 [main] INFO  testCases.Test01_AccountRegistrationTest - ****Getting Confirmation message****
+22:32:12.266 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2a2843ec: 37 ms
+22:32:12.358 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@1c9e07c6: 91 ms
+22:32:12.359 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@73010765: 1 ms
+22:32:12.376 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@64b3b1ce: 17 ms
+22:32:12.388 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@782be4eb: 12 ms
+22:32:12.397 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6f1a80fb: 8 ms
+22:32:12.397 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5a237731: 0 ms
